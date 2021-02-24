@@ -5,7 +5,7 @@ public class LargestRectangleAreaHistogram {
         int[] a= { 90, 58, 69, 70, 82, 100, 13, 57, 47, 18 };
         System.out.println(largestRectangleArea(a));
     }
-
+// https://www.interviewbit.com/problems/largest-rectangle-in-histogram/
     public static int largestRectangleArea(int[] a) {
         int n = a.length;
         int[] b = new int[n];
