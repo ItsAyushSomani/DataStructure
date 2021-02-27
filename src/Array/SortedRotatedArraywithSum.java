@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.HashSet;
+
 /**
  * Given an array that is sorted and then rotated around an unknown point.
  * Find if the array has a pair with a given sum ‘x’. It may be assumed that all elements in the array are distinct.
@@ -21,13 +23,24 @@ public class SortedRotatedArraywithSum {
 
     public static void main(String[] args) {
         int[] arr = {11, 15, 26, 38, 9, 10};
-        sort(arr);
-        int sum = 45;
+        //sort(arr);
+        int sum = 19;
         for (int i = 0; i < arr.length; i++) {
             int position = search(arr, 0, arr.length - 1, sum - arr[i]);
             if (position != -1) {
                 System.out.println("pair is (" + arr[i] + ", " + arr[position] + ")");
                 break;
+            }
+        }
+
+        //using Hashset complexity o(n)
+        HashSet set = new HashSet<Integer>();
+        for (int ar : arr) {
+            if (set.contains(sum - ar)){
+                System.out.println("Sum found pair is (" + ar + ", " + (sum - ar) + ")");
+                break;
+            } else{
+                set.add(ar);
             }
         }
     }
@@ -45,6 +58,7 @@ public class SortedRotatedArraywithSum {
 
     }
 
+    //complexity is nlogn
     public static int search(int arr[], int start, int end, int toBeSearched) {
         if (start <= end) {
             if (start == (arr.length - 1) && end == 0) {
