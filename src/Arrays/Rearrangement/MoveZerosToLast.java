@@ -1,4 +1,4 @@
-package Array.Rearrangement;
+package Arrays.Rearrangement;
 
 import java.util.Arrays;
 

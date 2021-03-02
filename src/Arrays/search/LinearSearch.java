@@ -1,7 +1,7 @@
-package search;
+package Arrays.search;
 
 /**
- * In an unsorted array, the search operation can be performed by linear traversal from the first element to the last element.
+ * In an unsorted array, the Array.search operation can be performed by linear traversal from the first element to the last element.
  */
 public class LinearSearch {
 
@@ -9,7 +9,7 @@ public class LinearSearch {
         int arr[] = {12, 34, 10, 6, 40};
         int n = arr.length;
 
-        // Using a last element as search element
+        // Using a last element as Array.search element
         int key = 40;
         int position = linearSearch(arr, key);
 

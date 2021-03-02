@@ -1,4 +1,4 @@
-package Array;
+package Arrays.Rotation;
 
 /**
  * Given an array, only rotation operation is allowed on array. We can rotate the array as many times as we want.

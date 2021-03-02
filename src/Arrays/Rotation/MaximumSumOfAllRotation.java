@@ -1,4 +1,4 @@
-package Array;
+package Arrays.Rotation;
 
 /**
  * Input: arr[] = {8, 3, 1, 2}

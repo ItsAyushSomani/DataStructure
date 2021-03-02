@@ -1,10 +1,10 @@
-package Array;
+package Arrays.search;
 
-public class RotatedArrayBinarySearch {
+public class BinarySearch {
 
     public static void main(String[] args) {
-        int[] arr = {30, 40, 50, 10, 20};
-        int position = search(arr, 0, arr.length - 1, 10 );
+        int[] arr = {1, 2, 3, 4, 5, 6};
+        int position = search(arr, 0, arr.length-1, 50);
         if(position == -1) {
             System.out.print("notfound");
         } else {
@@ -12,6 +12,7 @@ public class RotatedArrayBinarySearch {
         }
     }
 
+    //complexity O(logn)
     public static int search(int arr[], int start, int end, int toBeSearched) {
         if (start <= end) {
             if (start == (arr.length - 1) && end == 0) {
@@ -29,6 +30,3 @@ public class RotatedArrayBinarySearch {
         return -1;
     }
 }
-
-
-

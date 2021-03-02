@@ -1,4 +1,4 @@
-package Array;
+package Arrays.Rotation;
 
 public class LargestRectangleAreaHistogram {
     public static void main(String[] args) {

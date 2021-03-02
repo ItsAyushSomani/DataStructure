@@ -1,4 +1,4 @@
-package Array;
+package Arrays.Rotation;
 
 /**
  * Consider an array of distinct numbers sorted in increasing order. The array has been rotated (clockwise) k number of times.
@@ -27,7 +27,7 @@ public class RotationCountRotatedSortedarray {
     }
 
 
-    //linear search complexity o(n)
+    //linear Array.search complexity o(n)
     public static int countRotations(int arr[]) {
         for (int i = 1; i < arr.length; i++) {
             if (arr[i - 1] > arr[i]) {
@@ -37,7 +37,7 @@ public class RotationCountRotatedSortedarray {
         return 0;
     }
 
-    //binary search complexity o(logn)
+    //binary Array.search complexity o(logn)
 
     public static int search(int arr[], int start, int end) {
         if (start >= end) {

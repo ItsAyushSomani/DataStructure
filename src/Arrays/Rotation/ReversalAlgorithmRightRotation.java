@@ -1,4 +1,4 @@
-package Array;
+package Arrays.Rotation;
 
 /**
  * Given an array, right rotate it by k elements.
