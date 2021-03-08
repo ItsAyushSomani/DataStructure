@@ -33,47 +33,47 @@ public class MatrixRotation {
 
     }
 
-    public static void rotatematrix(int maxRow, int maxCol, int[][] arr) {
-        int row = 0, col = 0;
+    public static void rotatematrix(int rowEnd, int colEnd, int[][] arr) {
+        int rowBegin = 0, colBegin = 0;
         int prev, curr;
-        while (row < maxRow && col < maxCol) {
-            if (row + 1 == maxRow && col + 1 == maxCol) {
+        while (rowBegin < rowEnd && colBegin < colEnd) {
+            if (rowBegin + 1 == rowEnd && colBegin + 1 == colEnd) {
                 break;
             }
-            prev = arr[row + 1][col];
+            prev = arr[rowBegin + 1][colBegin];
 
-            for (int i = col; i < maxCol; i++) {
-                curr = arr[row][i];
-                arr[row][i] = prev;
+            for (int i = colBegin; i < colEnd; i++) {
+                curr = arr[rowBegin][i];
+                arr[rowBegin][i] = prev;
                 prev = curr;
             }
-            row++;
+            rowBegin++;
 
 
-            for (int i = row; i < maxRow; i++) {
-                curr = arr[i][maxCol - 1];
-                arr[i][maxCol - 1] = prev;
+            for (int i = rowBegin; i < rowEnd; i++) {
+                curr = arr[i][colEnd - 1];
+                arr[i][colEnd - 1] = prev;
                 prev = curr;
             }
-            maxCol--;
+            colEnd--;
 
-            if (row < maxRow) {
-                for (int i = maxCol - 1; i >= col; i--) {
-                    curr = arr[maxRow - 1][i];
-                    arr[maxRow - 1][i] = prev;
+            if (rowBegin < rowEnd) {
+                for (int i = colEnd - 1; i >= colBegin; i--) {
+                    curr = arr[rowEnd - 1][i];
+                    arr[rowEnd - 1][i] = prev;
                     prev = curr;
                 }
             }
-            maxRow--;
+            rowEnd--;
 
-            if (col < maxCol) {
-                for (int i = maxRow - 1; i >= row; i--) {
-                    curr = arr[i][col];
-                    arr[i][col] = prev;
+            if (colBegin < colEnd) {
+                for (int i = rowEnd - 1; i >= rowBegin; i--) {
+                    curr = arr[i][colBegin];
+                    arr[i][colBegin] = prev;
                     prev = curr;
                 }
             }
-            col++;
+            colBegin++;
         }
     }
 }
