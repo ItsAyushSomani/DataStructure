@@ -18,6 +18,12 @@ public class ReversalAlgorithmRightRotation {
         }
     }
 
+    private static void rightRotate(int[] arr, int k) {
+        reverse(arr, 0, arr.length - 1);
+        reverse(arr, 0, k - 1);
+        reverse(arr, k, arr.length - 1);
+    }
+
     public static void reverse(int[] arr, int start, int end) {
         int n = end - start;
         for (int i = 0; i < n/2; i++) {
