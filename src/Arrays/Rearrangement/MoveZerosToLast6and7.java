@@ -6,7 +6,7 @@ import java.util.Arrays;
  *
  */
 
-public class MoveZerosToLast {
+public class MoveZerosToLast6and7 {
 
     public static void main(String[] args) {
         int[] arr = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0};
@@ -19,11 +19,11 @@ public class MoveZerosToLast {
     public static void moveZeroToLast(int[] arr) {
         int i = 0;
         int lastNonZeroIndex = -1;
-        while (i< arr.length) {
-            if(arr[i] != 0 && lastNonZeroIndex != i) {
+        while (i < arr.length) {
+            if (arr[i] != 0 && lastNonZeroIndex != i) {
                 lastNonZeroIndex++;
                 int temp = arr[i];
-                arr[i]=arr[lastNonZeroIndex];
+                arr[i] = arr[lastNonZeroIndex];
                 arr[lastNonZeroIndex] = temp;
             }
             i++;

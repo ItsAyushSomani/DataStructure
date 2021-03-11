@@ -1,5 +1,9 @@
 package Arrays.Rearrangement;
 
+import java.util.Arrays;
+
+import Arrays.ArrayUtils;
+
 /**
  * Input :  arr[] = [12, 11, -13, -5, 6, -7, 5, -3, -6]
  * Output : arr[] = [-13, -5, -7, -3, -6, 12, 11, 6, 5]
@@ -10,16 +14,16 @@ package Arrays.Rearrangement;
  */
 
 
-public class RearrangePositiveandNegativeNumbers {
+public class RearrangePositiveandNegativeNumbers4 {
 
     public static void main(String[] args) {
-       int arr[] = {0, -12, 11, 0, -5, 6, -7, 5, 0, -3, 0,  -6, 0};
+        int arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, 9};
 //        int arr[] = {1, 2, 3, 4};
 //        rotateRight(arr, 0, 3);
+        Arrays.sort(arr);
+        ArrayUtils.printArray(arr);
         reArrangeWithSingleTraversal(arr);
-        for (int ar : arr) {
-            System.out.println(ar);
-        }
+        ArrayUtils.printArray(arr);
     }
 
     // o(n) , single traversal; // solution for move Zeros to end
@@ -31,8 +35,7 @@ public class RearrangePositiveandNegativeNumbers {
             if (arr[j] < 0) {  // if need to move positive to end change this cond to arr[i]<0
                 rotateRight(arr, i, j);
                 i++;
-            }
-            else if(arr[j] == 0){
+            } else if (arr[j] == 0) {
                 rotateRight(arr, i, j);
             }
             j++;
@@ -42,7 +45,7 @@ public class RearrangePositiveandNegativeNumbers {
     public static void rotateRight(int[] arr, int start, int end) {
         int temp = arr[end];
         for (int i = end; i > start; i--) {
-            arr[i] = arr[i-1];
+            arr[i] = arr[i - 1];
         }
         arr[start] = temp;
     }
