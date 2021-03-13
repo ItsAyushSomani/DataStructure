@@ -14,7 +14,7 @@ import Arrays.ArrayUtils;
  */
 
 
-public class Q4and14RearrangePositiveandNegativeNumbers {
+public class Q4and14and19RearrangePositiveandNegativeNumbers {
 
     public static void main(String[] args) {
         int arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, 9};
@@ -32,7 +32,7 @@ public class Q4and14RearrangePositiveandNegativeNumbers {
         int i = 0;
         int j = 0;
         while (j < n) {
-            if (arr[j] < 0) {  // if need to move positive to end change this cond to arr[i]<0
+            if (arr[j] <  0) {  // if need to move positive to end change this cond to arr[i]<0
                 rotateRight(arr, i, j);
                 i++;
             } else if (arr[j] == 0) {
