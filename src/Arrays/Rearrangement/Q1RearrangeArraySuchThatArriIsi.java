@@ -16,7 +16,7 @@ import java.util.Arrays;
  * 11, 12, 13, 14, 15, 16, 17, 18, 19]
  */
 
-public class RearrangeArraySuchThatArriIsi1 {
+public class Q1RearrangeArraySuchThatArriIsi {
 
     public static void main(String[] args) {
         int n, arr[] = {-1, -1, 6, 1, 9,

@@ -19,7 +19,7 @@ import Arrays.ArrayUtils;
  * even position wala uski ek position wale se chota hona chahiye
  */
 
-public class EvenPositionedGreaterThanOdd10 {
+public class Q10EvenPositionedGreaterThanOdd {
 
     public static void main(String[] args) {
         int n = 5;

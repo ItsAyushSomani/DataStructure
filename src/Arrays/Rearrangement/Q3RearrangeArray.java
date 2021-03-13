@@ -16,7 +16,7 @@ import Arrays.ArrayUtils;
  * Output : 4 5 2 6 1 8 1 8
  */
 
-public class RearrangeArray3 {
+public class Q3RearrangeArray {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 1, 4, 5, 6, 8, 8};

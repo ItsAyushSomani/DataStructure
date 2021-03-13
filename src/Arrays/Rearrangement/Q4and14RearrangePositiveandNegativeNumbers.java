@@ -14,7 +14,7 @@ import Arrays.ArrayUtils;
  */
 
 
-public class RearrangePositiveandNegativeNumbers4 {
+public class Q4and14RearrangePositiveandNegativeNumbers {
 
     public static void main(String[] args) {
         int arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, 9};

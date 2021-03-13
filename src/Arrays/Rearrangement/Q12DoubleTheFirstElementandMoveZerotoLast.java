@@ -13,7 +13,7 @@ import java.util.Arrays;
  * Output :  4 2 12 8 0 0 0 0 0 0
  */
 
-public class DoubleTheFirstElementandMoveZerotoLast12 {
+public class Q12DoubleTheFirstElementandMoveZerotoLast {
 
     public static void main(String[] args) {
         int[] arr = {2, 2, 0, 4, 0, 8};

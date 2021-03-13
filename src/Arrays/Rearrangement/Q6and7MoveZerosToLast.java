@@ -6,7 +6,7 @@ import java.util.Arrays;
  *
  */
 
-public class MoveZerosToLast6and7 {
+public class Q6and7MoveZerosToLast {
 
     public static void main(String[] args) {
         int[] arr = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0};

@@ -6,7 +6,7 @@ import Arrays.ArrayUtils;
  *
  */
 
-public class BringAllElementsLessThanKTogether8 {
+public class Q8BringAllElementsLessThanKTogether {
 
     public static void main(String[] args) {
         int arr[] = {2, 1, 5, 6, 3};

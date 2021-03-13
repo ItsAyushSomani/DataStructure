@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Rearrangement;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  * (arr[j] + key).compareTo(key + arr[j]) < 0
  */
 
-public class ToBedeleted {
+public class Q15BiggestNumber {
     public static void main(String[] args) {
         String[] arr = {"1", "34", "3", "98", "9", "76", "45", "4"};
         sort(arr);

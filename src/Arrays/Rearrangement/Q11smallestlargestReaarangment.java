@@ -8,7 +8,7 @@ import java.util.Arrays;
  *
  */
 
-public class smallestlargestReaarangment11 {
+public class Q11smallestlargestReaarangment {
 
     public static void main(String[] args) {
         int arr[] = {5, 8, 1, 4, 2, 9, 3, 7, 6};
