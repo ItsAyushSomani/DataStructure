@@ -20,7 +20,7 @@ public class Q17and18MaximumMinimumSet {
 
     public static void main(String[] args) {
 
-        int arr[] = {10, 20, 30, 40, 50, 60};
+        int arr[] = {15, 20, 32, 40, 42, 61};
 
 //        testcase 1
 //        int arr[] = {1, 2, 3, 4, 5, 6, 7};
