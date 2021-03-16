@@ -15,13 +15,17 @@ public class Q19CountPossibleTriangles {
 
     public static int findNumberOfTriangles(int[] arr) {
         int i = 0, j = 1, k = 2, count = 0;
-        while (j < arr.length - 2) {
-            if (k == arr.length) {
+        while (i < arr.length - 3) {
+            if (k == arr.length && j == arr.length - 2) {
                 i++;
-                j++;
+                j = i + 1;
+                k = j + 1;
+            } else if (k == arr.length) {
+                j = j + 1;
                 k = j + 1;
             }
             if (arr[k] < (arr[i] + arr[j])) {
+                System.out.println("{" + arr[i] + "," + arr[j] + "," + arr[k] + "}");
                 count++;
             }
             k++;
