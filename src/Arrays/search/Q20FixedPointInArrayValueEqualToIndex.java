@@ -5,7 +5,7 @@ package Arrays.search;
 
 import Arrays.ArrayUtils;
 
-public class Q24FixedPointInArrayValueEqualToIndex {
+public class Q20FixedPointInArrayValueEqualToIndex {
 
     public static void main(String[] args) {
         int arr[] = {-10, -1, 0, 3, 10, 11, 30, 50, 100};
