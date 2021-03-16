@@ -6,7 +6,7 @@ import java.util.Arrays;
  *
  */
 
-public class SmallestDifferenceTripletThreeArrays {
+public class Q23SmallestDifferenceTripletThreeArrays {
 
     public static void main(String[] args) {
         int arr1[] = {5, 2, 8};

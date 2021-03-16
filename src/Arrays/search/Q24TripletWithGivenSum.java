@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  *
  */
 
-public class TripletWithGivenSum {
+public class Q24TripletWithGivenSum {
 
     public static void main(String[] args) {
         int[] arr = {1, 4, 45, 6, 10, 8};

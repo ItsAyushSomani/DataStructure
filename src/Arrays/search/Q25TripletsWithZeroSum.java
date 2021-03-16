@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  *
  */
 
-public class TripletsWithZeroSum {
+public class Q25TripletsWithZeroSum {
 
     public static void main(String[] args) {
         int arr[] = {0, -1, 2, -3, 1};

@@ -4,7 +4,7 @@ package Arrays.search;
  *
  */
 
-public class LeaderIntheArray {
+public class Q12LeaderIntheArray {
 
     public static void main(String[] args) {
         int[] arr = {16, 17, 4, 3, 5, 2};

@@ -7,7 +7,7 @@ package Arrays.search;
  * Output: 7
  */
 
-public class FindElementAppear1s {
+public class Q8FindElementAppear1s {
 
     public static void main(String[] args) {
         int arr[] = {7, 3, 5, 4, 5, 3, 4};

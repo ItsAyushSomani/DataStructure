@@ -6,7 +6,7 @@ import java.util.HashSet;
  * We are given an array arr[] of size n. Numbers are from 1 to (n-1) in random order. The array has only one repetitive element. We need to find the repetitive element.
  */
 
-public class RepetitiveElement {
+public class Q7RepetitiveElement {
 
     public static void main(String[] args) {
         int[] arr = {1, 5, 1, 2, 3, 4};

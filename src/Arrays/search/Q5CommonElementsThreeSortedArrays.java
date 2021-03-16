@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * Output: 5, 5
  */
 
-public class CommonElementsThreeSortedArrays {
+public class Q5CommonElementsThreeSortedArrays {
 
     public static void main(String[] args) {
         int ar1[] = {1, 5, 10, 20, 40, 80};

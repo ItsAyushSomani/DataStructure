@@ -6,7 +6,7 @@ import java.util.Arrays;
  *
  */
 
-public class SubarrayWithGivenSum {
+public class Q21SubarrayWithGivenSum {
 
     public static void main(String[] args) {
         int arr[] = {15, 2, 4, 8, 9, 5, 10, 23};

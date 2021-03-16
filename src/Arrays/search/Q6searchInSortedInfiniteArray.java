@@ -12,7 +12,7 @@ package Arrays.search;
  * Solution - till val is less than to be searched do left = right and update value of right by 2 if less than array.length
  */
 
-public class searchInSortedInfiniteArray {
+public class Q6searchInSortedInfiniteArray {
 
     public static void main(String[] args) {
         int arr[] = new int[]{3, 5, 7, 9, 10, 90,
