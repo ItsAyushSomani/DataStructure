@@ -6,7 +6,7 @@ import java.util.*;
  *
  */
 
-public class KthSmallestMinHeap1 {
+public class Q1KthSmallestMinHeap {
 
     public static void main(String[] args) {
         int arr[] = {12, 3, 5, 7, 19};

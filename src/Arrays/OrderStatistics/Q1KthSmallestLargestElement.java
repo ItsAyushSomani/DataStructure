@@ -16,7 +16,7 @@ import java.util.Arrays;
  * Output: 10
  */
 
-public class KthSmallestLargestElement1 {
+public class Q1KthSmallestLargestElement {
 
     public static void main(String[] args) {
         int arr[] = { 12, 3, 5, 7, 19 };
