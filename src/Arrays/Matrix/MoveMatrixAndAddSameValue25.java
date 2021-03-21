@@ -1,5 +1,7 @@
 package Arrays.Matrix;
 
+import Arrays.PrintMatrix;
+
 /**
  * Given a matrix m[ ][ ] of size n x n consisting of integers and given a character ‘x’ indicating the direction. Value of ‘x’ can be ‘u’, ‘d’, ‘l’, ‘r’ indicating Up, Down, Left, Right correspondingly. The task is to move the element to given direction such that the consecutive elements having same value are added into single value and shift the rest element. Also, shift the element if the next element in given direction is 0.
  * For example :

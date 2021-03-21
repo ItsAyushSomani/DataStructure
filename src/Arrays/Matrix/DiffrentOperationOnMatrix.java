@@ -1,5 +1,7 @@
 package Arrays.Matrix;
 
+import Arrays.PrintMatrix;
+
 /**
  *
  */
