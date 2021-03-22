@@ -1,4 +1,4 @@
-package DynamicProgramming.UnboundedKnapsack;
+package DynamicProgramming.LCS;
 /**
  *
  */
@@ -7,7 +7,7 @@ import Arrays.PrintMatrix;
 
 import java.util.Arrays;
 
-public class Q1UnboundedKnapsack {
+public class Q1LCS {
     static int t[][] = new int[7][8];
 
     public static void main(String[] args) {
