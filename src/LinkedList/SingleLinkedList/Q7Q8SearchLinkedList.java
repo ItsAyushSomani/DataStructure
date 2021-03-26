@@ -3,7 +3,7 @@ package LinkedList.SingleLinkedList;
  *
  */
 
-public class Q7SearchElementLinkedList {
+public class Q7Q8SearchLinkedList {
 
     public static void main(String[] args) {
         // Insert 6.  So linked list becomes 6->NUllist
@@ -23,5 +23,6 @@ public class Q7SearchElementLinkedList {
         System.out.println("\n Link list is: ");
         LinkedList.printList();
         System.out.println("Linked list contains element searched:" + LinkedList.search(42));
+        System.out.println("Linked list recursively search element:" + LinkedList.searchRecursively(LinkedList.head, 4));
     }
 }
