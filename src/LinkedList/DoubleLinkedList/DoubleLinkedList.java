@@ -9,6 +9,7 @@ public class DoubleLinkedList {
 
     public static LinkedList.Node head;
 
+
     public static class Node {
         public int data;
         public Node prev;
@@ -80,6 +81,30 @@ public class DoubleLinkedList {
         }
         if (nodeToBeDeleted.prev != null) {
             nodeToBeDeleted.prev.next = nodeToBeDeleted.next;
+        }
+        return head;
+    }
+
+    public static Node deleteNodeAtPosition(Node head, int i) {
+        if (head == null) {
+            return head;
+        }
+        if (i == 1) {
+            head = head.next;
+            head.prev = null;
+            return head;
+        }
+        int count = 1;
+        Node curr = head;
+        while (count < i) {
+            curr = curr.next;
+            count++;
+        }
+        if (curr.next != null) {
+            curr.next.prev = curr.prev;
+        }
+        if (curr.prev != null) {
+            curr.prev.next = curr.next;
         }
         return head;
     }
