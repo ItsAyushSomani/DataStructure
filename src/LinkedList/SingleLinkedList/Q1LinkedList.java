@@ -5,8 +5,16 @@ package LinkedList.SingleLinkedList;
 
 import Arrays.ArrayUtils;
 
+import java.io.EOFException;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReadWriteLock;
 
- class Q1LinkedList {
+class Q1LinkedList{
+
     static Node head;
 
     static class Node {
@@ -30,7 +38,6 @@ import Arrays.ArrayUtils;
     public static void main(String[] args) {
         Q1LinkedList linkedList = new Q1LinkedList();
         Q1LinkedList.head = new Node(10);
-        printList();
     }
 
     public static void insert(Node head) {
