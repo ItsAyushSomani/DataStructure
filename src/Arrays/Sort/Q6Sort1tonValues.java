@@ -12,7 +12,7 @@ public class Q6Sort1tonValues {
         int[] arr = {10, 7, 9, 2, 8,
                 3, 5, 4, 6, 1};
         sortit(arr);
-        ArrayUtils.printArray(arr);
+//        ArrayUtils.printArray(arr);
     }
 
     public static void sortit(int[] arr) {
