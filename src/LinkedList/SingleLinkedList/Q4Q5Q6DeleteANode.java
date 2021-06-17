@@ -3,8 +3,6 @@ package LinkedList.SingleLinkedList;
  *
  */
 
-import Arrays.ArrayUtils;
-
 public class Q4Q5Q6DeleteANode {
 
     public static void main(String[] args) {

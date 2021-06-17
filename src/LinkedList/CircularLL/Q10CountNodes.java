@@ -3,8 +3,6 @@ package LinkedList.CircularLL;
  *
  */
 
-import Arrays.ArrayUtils;
-
 public class Q10CountNodes {
 
     public static void main(String[] args) {

@@ -3,8 +3,6 @@ package LinkedList.SingleLinkedList;
  *
  */
 
-import Arrays.ArrayUtils;
-
 public class Q17RemoveDuplicateFromList {
 
     public static void main(String[] args) {

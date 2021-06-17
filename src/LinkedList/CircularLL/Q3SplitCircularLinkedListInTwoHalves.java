@@ -3,8 +3,6 @@ package LinkedList.CircularLL;
  *
  */
 
-import Arrays.ArrayUtils;
-
 import java.util.ArrayList;
 
 public class Q3SplitCircularLinkedListInTwoHalves {

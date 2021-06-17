@@ -3,8 +3,6 @@ package LinkedList.DoubleLinkedList;
  *
  */
 
-import Arrays.ArrayUtils;
-
 public class Q15DeleteAllOccurenceOfKey {
 
     public static void main(String[] args) {

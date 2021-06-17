@@ -3,8 +3,6 @@ package LinkedList.SingleLinkedList;
  *
  */
 
-import Arrays.ArrayUtils;
-
 public class Q18SwapNodes {
 
     public static void main(String[] args) {

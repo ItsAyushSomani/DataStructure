@@ -3,16 +3,6 @@ package LinkedList.SingleLinkedList;
  *
  */
 
-import Arrays.ArrayUtils;
-
-import java.io.EOFException;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.sql.SQLException;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReadWriteLock;
-
 class Q1LinkedList{
 
     static Node head;

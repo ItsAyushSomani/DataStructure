@@ -3,8 +3,6 @@ package LinkedList.DoubleLinkedList;
  *
  */
 
-import Arrays.ArrayUtils;
-
 public class Q25ReverseADLLByKNodes {
     public static void main(String[] args) {
         DoubleLinkedList.Node head = null;
