@@ -1,6 +1,4 @@
-package LinkedList.CircularLL;
-
-import LinkedList.SingleLinkedList.LinkedList;
+package GeeksForGeeks.LinkedList.CircularLL;
 
 /**
  *

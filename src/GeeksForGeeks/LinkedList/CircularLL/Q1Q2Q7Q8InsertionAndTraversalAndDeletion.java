@@ -1,9 +1,9 @@
-package LinkedList.CircularLL;
+package GeeksForGeeks.LinkedList.CircularLL;
 /**
  *
  */
 
-public class Q10CountNodes {
+public class Q1Q2Q7Q8InsertionAndTraversalAndDeletion {
 
     public static void main(String[] args) {
         CircularLL.Node last = null;
@@ -13,6 +13,8 @@ public class Q10CountNodes {
         last = CircularLL.insertNodeAtLast(last, 8);
         last = CircularLL.insertNodeAtLast(last, 12);
 //        last = addAfter(last, 10, 8);
-        System.out.println(CircularLL.countNodes(last));
+        CircularLL.delete(last, 12);
+        CircularLL.printList(last);
+
     }
 }

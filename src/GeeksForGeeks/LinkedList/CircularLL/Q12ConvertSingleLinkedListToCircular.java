@@ -1,9 +1,9 @@
-package LinkedList.CircularLL;
+package GeeksForGeeks.LinkedList.CircularLL;
 /**
  *
  */
 
-import LinkedList.SingleLinkedList.LinkedList;
+import GeeksForGeeks.LinkedList.SingleLinkedList.LinkedList;
 
 public class Q12ConvertSingleLinkedListToCircular {
     public static void main(String[] args) {

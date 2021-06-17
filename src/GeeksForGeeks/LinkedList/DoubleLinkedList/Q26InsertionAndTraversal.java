@@ -1,9 +1,9 @@
-package LinkedList.DoubleLinkedList;
+package GeeksForGeeks.LinkedList.DoubleLinkedList;
 /**
  *
  */
 
-public class Q27CircularDoublyLLDeletion {
+public class Q26InsertionAndTraversal {
 
     public static void main(String[] args) {
         /* Start with the empty list */
@@ -22,10 +22,6 @@ public class Q27CircularDoublyLLDeletion {
         // Insert 6, after 5. So linked list
         // becomes 4.5.6.7.8
         System.out.printf("Created circular doubly linked list is: ");
-        CircularDoubleLinkedList.printList(head);
-        head = CircularDoubleLinkedList.deleteNode(head, 8);
-
-        System.out.printf("After Deletion circular doubly linked list is: ");
         CircularDoubleLinkedList.printList(head);
     }
 }

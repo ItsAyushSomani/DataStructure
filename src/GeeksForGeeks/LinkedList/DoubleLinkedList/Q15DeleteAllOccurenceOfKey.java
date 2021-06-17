@@ -1,4 +1,4 @@
-package LinkedList.DoubleLinkedList;
+package GeeksForGeeks.LinkedList.DoubleLinkedList;
 /**
  *
  */
@@ -15,7 +15,7 @@ public class Q15DeleteAllOccurenceOfKey {
         head = DoubleLinkedList.insertNodeAtFront(head, 10);
         head = DoubleLinkedList.insertNodeAtFront(head, 2);
         head = DoubleLinkedList.insertNodeAtFront(head, 2);
-        System.out.println("Original Doubly LinkedList");
+        System.out.println("Original Doubly GeeksForGeeks.LinkedList");
         DoubleLinkedList.printList(head);
 
         /* remove duplicate nodes */

@@ -1,4 +1,4 @@
-package LinkedList.SingleLinkedList;
+package GeeksForGeeks.LinkedList.SingleLinkedList;
 /**
  *
  */

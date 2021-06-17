@@ -1,9 +1,10 @@
-package LinkedList.SingleLinkedList;
+package GeeksForGeeks.LinkedList.SingleLinkedList;
+
 /**
  *
  */
 
-public class Q7Q8SearchLinkedList {
+public class Q3InsertNode {
 
     public static void main(String[] args) {
         // Insert 6.  So linked list becomes 6->NUllist
@@ -20,9 +21,7 @@ public class Q7Q8SearchLinkedList {
         // Insert 8, after 7. So linked list becomes
         // 1->7->8->6->4->NUllist
         LinkedList.insertNodeAfterANode(LinkedList.head.next, 8);
-        System.out.println("\n Link list is: ");
+        System.out.println("\nCreated Linked list is: ");
         LinkedList.printList();
-        System.out.println("Linked list contains element searched:" + LinkedList.search(42));
-        System.out.println("Linked list recursively search element:" + LinkedList.searchRecursively(LinkedList.head, 4));
     }
 }

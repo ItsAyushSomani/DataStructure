@@ -1,4 +1,4 @@
-package LinkedList.DoubleLinkedList;
+package GeeksForGeeks.LinkedList.DoubleLinkedList;
 
 /**
  *

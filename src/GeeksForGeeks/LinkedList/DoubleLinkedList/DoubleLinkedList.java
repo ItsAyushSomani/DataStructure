@@ -1,9 +1,9 @@
-package LinkedList.DoubleLinkedList;
+package GeeksForGeeks.LinkedList.DoubleLinkedList;
 /**
  *
  */
 
-import LinkedList.SingleLinkedList.LinkedList;
+import GeeksForGeeks.LinkedList.SingleLinkedList.LinkedList;
 
 public class DoubleLinkedList {
 

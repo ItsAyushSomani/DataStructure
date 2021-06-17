@@ -1,4 +1,4 @@
-package LinkedList.DoubleLinkedList;
+package GeeksForGeeks.LinkedList.DoubleLinkedList;
 /**
  *
  */
@@ -17,7 +17,7 @@ public class Q14RemoveDuplicateFromSortedList {
         head = DoubleLinkedList.insertNodeAtFront(head, 4);
         head = DoubleLinkedList.insertNodeAtFront(head, 4);
         head = DoubleLinkedList.insertNodeAtFront(head, 4);
-        System.out.println("Original Doubly LinkedList");
+        System.out.println("Original Doubly GeeksForGeeks.LinkedList");
         DoubleLinkedList.printList(head);
 
         /* remove duplicate nodes */

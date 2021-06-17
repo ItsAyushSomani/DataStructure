@@ -1,9 +1,9 @@
-package LinkedList.DoubleLinkedList;
+package GeeksForGeeks.LinkedList.DoubleLinkedList;
 /**
  *
  */
 
-public class Q25ReverseADLLByKNodes {
+public class Q12Deleteatparticularlocation {
     public static void main(String[] args) {
         DoubleLinkedList.Node head = null;
         // Insert 6. So linked list becomes 6->NULL
@@ -22,23 +22,8 @@ public class Q25ReverseADLLByKNodes {
 //        dll.InsertAfter(dll.head.next, 8);
         System.out.println("Created DLL is: ");
         DoubleLinkedList.printList(head);
-        head = reverseByKNodes(head, 2);
-        System.out.println("After revere");
+        head = DoubleLinkedList.deleteNodeAtPosition(head, 2);
+        System.out.println("After Deletion");
         DoubleLinkedList.printList(head);
-    }
-
-    public static DoubleLinkedList.Node reverseByKNodes(DoubleLinkedList.Node head, int k) {
-        DoubleLinkedList.Node prev = null;
-        DoubleLinkedList.Node curr = head;
-        int count = 0;
-        while (curr != null && count < k) {
-            prev = curr.prev;
-            curr.prev = curr.next;
-            curr.next = prev;
-            curr = curr.prev;
-            count++;
-        }
-        return head = curr;
-
     }
 }

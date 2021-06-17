@@ -1,4 +1,4 @@
-package LinkedList.CircularLL;
+package GeeksForGeeks.LinkedList.CircularLL;
 /**
  *
  */

@@ -3,7 +3,7 @@ package LeetCode.Easy;
  *
  */
 
-import LinkedList.SingleLinkedList.LinkedList;
+import GeeksForGeeks.LinkedList.SingleLinkedList.LinkedList;
 
 public class Q21MergeTwoList {
 
