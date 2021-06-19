@@ -33,7 +33,7 @@ public class Q12IntegerToRoman {
                         sb.append(hmap.get(i));
                         num = num - i;
                     }
-                    if (num !=0 && num % i == i - 1) {
+                    if (num != 0 && num % i == i - 1) {
                         sb.append(hmap.get(1));
                         sb.append(hmap.get(i));
                         num = num - i;
