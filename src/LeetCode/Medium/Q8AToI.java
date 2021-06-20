@@ -3,18 +3,19 @@ package LeetCode.Medium;
 public class Q8AToI {
 
     public static void main(String[] args) {
-        System.out.println(myAtos("-91283472332"));
+        System.out.println(myAtoi("-91283472332"));
     }
 
     public static int myAtoi(String s) {
-        if (s.trim().length() == 0) return 0;
-        boolean negative = false;
         s = s.trim();
+        int length = s.length();
+        if (length == 0) return 0;
+        boolean negative = false;
         if ("-".equals(s.substring(0, 1))) {
             negative = true;
-            s = s.substring(1, s.length());
+            s = s.substring(1, length);
         } else if ("+".equals(s.substring(0, 1))) {
-            s = s.substring(1, s.length());
+            s = s.substring(1, length);
         }
         char[] crr = s.toCharArray();
         int i = 0;
@@ -32,38 +33,6 @@ public class Q8AToI {
             return i;
         }
         return negative ? -i : i;
-    }
-
-    public static int myAtos(String s) {
-        int len = s.length();
-        int idex = 0;
-        int signal = 1;
-        while (idex < len && Character.isWhitespace(s.charAt(idex))) {
-            idex++;
-        }
-        if (idex < len && s.charAt(idex) == '+') {
-            idex++;
-            signal = 1;
-        } else if (idex < len && s.charAt(idex) == '-') {
-            idex++;
-            signal = -1;
-        }
-        long result = 0;
-        while (idex < len) {
-            char curr = s.charAt(idex);
-            if (!Character.isDigit(curr)) {
-                return (int) (result * signal);
-            }
-            result = result * 10 + (curr - '0');
-            if (signal == 1 && result >= Integer.MAX_VALUE) {
-                return Integer.MAX_VALUE;
-            }
-            if (signal == -1 && -1 * result <= Integer.MIN_VALUE) {
-                return Integer.MIN_VALUE;
-            }
-            idex++;
-        }
-        return (int) (result * signal);
     }
 }
 /**
