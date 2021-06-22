@@ -11,6 +11,6 @@ public class Q67AddTwoBinary {
     }
 
     public static String addBinary(String a, String b) {
-        return Integer.toBinaryString(Integer.parseInt(a, 2) + Integer.parseInt(b, 2));
+        return Long.toBinaryString(Long.parseLong(a, 2) + Long.parseLong(b, 2));
     }
 }
