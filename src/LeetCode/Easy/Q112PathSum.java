@@ -56,16 +56,9 @@ package LeetCode.Easy;
  */
 class Q112PathSum {
     public boolean hasPathSum(TreeNode root, int targetSum) {
-        if (root == null) return false;
+        if(root == null) return false;
         if (root.left == null && root.right == null && root.val == targetSum) return true;
-        boolean left = false, right = false;
-        if (root.left != null) {
-            left = hasPathSum(root.left, targetSum - root.val);
-        }
-        if (root.right != null) {
-            right = hasPathSum(root.right, targetSum - root.val);
-        }
-        return left || right;
+        return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
