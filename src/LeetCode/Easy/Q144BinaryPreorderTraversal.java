@@ -53,6 +53,7 @@ package LeetCode.Easy;
 //leetcode submit region begin(Prohibit modification and deletion)
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -74,6 +75,7 @@ class Q144BinaryPreorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         preorderTraversal1(root, list);
+
         return list;
     }
 
