@@ -24,7 +24,7 @@ public class AllRowCircularRotationsOfEachOther {
     public static void main(String[] args) {
         int n = 4;
 
-        //Test case 1
+        //Employee case 1
         int arr[][] = {{1, 2, 3, 4},
                 {4, 1, 2, 3},
                 {3, 4, 1, 2},

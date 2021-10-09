@@ -9,7 +9,7 @@ import GeeksForGeeks.Arrays.ArrayUtils;
 public class Q7Sort1toNSwappingAdjacentElements {
 
     public static void main(String[] args) {
-//        Test case1
+//        Employee case1
 //        int arr[] = {1, 2, 5, 3, 4, 6};
 //        boolean brr[] = {false, true, true, true, false};
         int arr[] = {2, 3, 1, 4, 5, 6};

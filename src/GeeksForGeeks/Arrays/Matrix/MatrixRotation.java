@@ -7,7 +7,7 @@ package GeeksForGeeks.Arrays.Matrix;
 public class MatrixRotation {
 
     public static void main(String[] args) {
-        // Test Case 1
+        // Employee Case 1
 //        int arr[][] = {{1, 2, 3},
 //                {4, 5, 6},
 //                {7, 8, 9}};
