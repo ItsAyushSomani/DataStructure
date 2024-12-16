@@ -44,6 +44,7 @@ public class Q1448CountGoodNodesInBinaryTree {
         if(root == null) {
             return 0;
         }
+
         var goodNodeCount = 0;
         if(root.val >= rootValue) {
             goodNodeCount++;
